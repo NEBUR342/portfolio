@@ -1,0 +1,73 @@
+/* Estilo para desactivar los estilos de enlace de Bootstrap */
+.link-unstyled {
+  color: inherit;
+  text-decoration: none;
+}
+
+.h1-style {
+  font-family: 'Helvetica', sans-serif; /* Cambia la fuente del título */
+  font-size: 2.5rem; /* Tamaño de fuente */
+  text-transform: uppercase; /* Convierte el texto a mayúsculas */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  margin-bottom: 0; /* Elimina el margen inferior predeterminado del h1 */
+}
+
+.link-width {
+  width: 45px;
+  background-color: antiquewhite;
+}
+
+/* Animaciones para fade-in y fade-out */
+.fade-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 500ms, transform 500ms;
+}
+
+/* Otros estilos generales */
+.container {
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #f7f7f7;
+  border-bottom: none;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+  background-color: #ffffff;
+}
+
+.list-group-item {
+  border: none;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-dark-danger{
+  color: #8B0000
+}
