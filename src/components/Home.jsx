@@ -2,6 +2,7 @@ import React from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 import jsonData from "./json/data.json";
 import imagen from "./images/fotoPerfil.jpeg";
+import About from "./About";
 import "../App.css";
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
           </div>
         </CSSTransition>
       </TransitionGroup>
+      <About />
     </div>
   );
 };

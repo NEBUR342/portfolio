@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Home from "./components/Home";
-import About from "./components/About";
 import Contact from "./components/Contact";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHouse } from "@fortawesome/free-solid-svg-icons";
@@ -18,8 +17,7 @@ const Header = () => (
       height: "50px",
       padding: "0",
       margin: "0",
-    }}
-  >
+    }}>
     <div className="container-fluid h-100">
       <div className="row align-items-center justify-content-between mx-1 h-100">
         <div className="col">
@@ -30,9 +28,6 @@ const Header = () => (
           </h2>
         </div>
         <div className="col d-flex justify-content-end">
-          <Link to="/portfolio/about" className="mx-1">
-            <button className="btn btn-info">About</button>
-          </Link>
           <Link to="/portfolio/contact" className="mx-1">
             <button className="btn btn-info">Contact</button>
           </Link>
@@ -46,7 +41,6 @@ const Main = () => (
   <main className="container-fluid main-content bg-secondary py-1 flex-grow-1">
     <Routes>
       <Route path="/portfolio" element={<Home />} />
-      <Route path="/portfolio/about" element={<About />} />
       <Route path="/portfolio/contact" element={<Contact />} />
       <Route path="" element={<Home />} />
     </Routes>
@@ -71,8 +65,7 @@ const Footer = ({ redesSociales }) => (
                   href={redSocial.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white"
-                >
+                  className="text-white">
                   <img
                     src={redSocial.simbolo}
                     alt={redSocial.name}
@@ -90,8 +83,7 @@ const Footer = ({ redesSociales }) => (
             <a
               href={jsonData.proyectos}
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               GITHUB
             </a>
           </p>
