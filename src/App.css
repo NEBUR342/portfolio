@@ -76,6 +76,12 @@
   height: 100vh;
 }
 
-.margen-bottom{
-  margin-bottom: 10%;
+.margen-bottom {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .margen-bottom {
+    margin-bottom: 15%;
+  }
 }
