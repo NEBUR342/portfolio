@@ -12,7 +12,7 @@ const Home = () => {
       <TransitionGroup className="full-height-container">
         <CSSTransition timeout={500} classNames="fade">
           <Row className="full-height-container text-center text-white align-items-center justify-content-center">
-            <Col md={6} className="my-auto">
+            <Col>
               <h1>{jsonData.nombre}</h1>
               <h3>{jsonData.profesion}</h3>
               <p className="lead">{jsonData.descripcionPersonal}</p>
