@@ -71,3 +71,7 @@
 .text-dark-danger{
   color: #8B0000
 }
+
+.full-height-container {
+  height: 100vh;
+}

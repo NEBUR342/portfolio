@@ -10,17 +10,7 @@ import jsonData from "./json/data.json";
 import "../App.css";
 
 const About = () => {
-  // Inicializa el estado con valores predeterminados seguros
   const [data, setData] = useState({
-    nombre: "",
-    descripcionPersonal: "",
-    profesion: "",
-    telefono: "",
-    proyectos: "",
-    email: "",
-    redes: [],
-    aptitudes: [],
-    detallesAdicionales: [],
     experiencias: [],
     voluntariados: [],
     estudios: [],
@@ -28,6 +18,8 @@ const About = () => {
     lenguajes: [],
     frameworks: [],
     tecnologias: [],
+    aptitudes: [],
+    detallesAdicionales: []
   });
 
   useEffect(() => {
@@ -40,13 +32,13 @@ const About = () => {
     renderItem,
     animationClass = "fade-in"
   ) => (
-    <div className="col-12 col-md-6 my-auto mx-auto">
+    <div className="col-12 col-md-6 my-3">
       <CSSTransition timeout={500} classNames={animationClass}>
-        <div className="card shadow-lg rounded-lg my-4">
+        <div className="card shadow-lg rounded-lg">
           <div className="card-header bg-primary text-white text-center">
             <h3 className="mb-0">{title}</h3>
           </div>
-          <div className="card-body p-4 rounded-1">
+          <div className="card-body p-4 rounded-5">
             <ul className="list-group list-group-flush">
               {(items || []).map(renderItem)}
             </ul>
@@ -58,8 +50,8 @@ const About = () => {
 
   const renderAptitudes = () =>
     renderListSection("Aptitudes", data.aptitudes, (aptitud) => (
-      <li key={aptitud.id} className="list-group-item my-1">
-        <h4>{aptitud.name}</h4>
+      <li key={aptitud.id} className="list-group-item my-2">
+        <h4>{aptitud.nombre}</h4>
       </li>
     ));
 
@@ -68,15 +60,15 @@ const About = () => {
       "Detalles Adicionales",
       data.detallesAdicionales,
       (detalle) => (
-        <li key={detalle.id} className="list-group-item my-1">
-          <h4>{detalle.name}</h4>
+        <li key={detalle.id} className="list-group-item my-2">
+          <h4>{detalle.nombre}</h4>
         </li>
       )
     );
 
   const renderExperiencias = () =>
     renderListSection("Experiencias", data.experiencias, (experiencia) => (
-      <li key={experiencia.id} className="list-group-item my-1">
+      <li key={experiencia.id} className="list-group-item my-2">
         <h4>
           <FontAwesomeIcon icon={faBuilding} className="me-2" />
           {experiencia.nombreEmpresa}
@@ -98,7 +90,7 @@ const About = () => {
 
   const renderVoluntariados = () =>
     renderListSection("Voluntariados", data.voluntariados, (voluntariado) => (
-      <li key={voluntariado.id} className="list-group-item my-1">
+      <li key={voluntariado.id} className="list-group-item my-2">
         <h4>
           <FontAwesomeIcon icon={faBuilding} className="me-2" />
           {voluntariado.nombreEmpresa}
@@ -120,7 +112,7 @@ const About = () => {
 
   const renderEstudios = () =>
     renderListSection("Estudios", data.estudios, (estudio) => (
-      <li key={estudio.id} className="list-group-item my-1">
+      <li key={estudio.id} className="list-group-item my-2">
         <h4>
           <FontAwesomeIcon icon={faBuilding} className="me-2" />
           {estudio.centro}
@@ -141,7 +133,7 @@ const About = () => {
 
   const renderIdiomas = () =>
     renderListSection("Idiomas", data.idiomas, (idioma) => (
-      <li key={idioma.id} className="list-group-item my-1">
+      <li key={idioma.id} className="list-group-item my-2">
         <h4>
           {idioma.nombre}: {idioma.nivel}
         </h4>
@@ -149,53 +141,55 @@ const About = () => {
     ));
 
   const renderLenguajes = () =>
-    renderListSection("Lenguajes", data.languages, (lenguaje) => (
-      <li key={lenguaje.id} className="list-group-item my-1">
-        <h4>{lenguaje.name}</h4>
-        <p>{lenguaje.description}</p>
+    renderListSection("Lenguajes", data.lenguajes, (lenguaje) => (
+      <li key={lenguaje.id} className="list-group-item my-2">
+        <h4>{lenguaje.nombre}</h4>
+        <p>{lenguaje.descripcion}</p>
       </li>
     ));
 
   const renderFrameworks = () =>
     renderListSection("Frameworks", data.frameworks, (framework) => (
-      <li key={framework.id} className="list-group-item my-1">
-        <h4>{framework.name}</h4>
-        <p>{framework.description}</p>
+      <li key={framework.id} className="list-group-item my-2">
+        <h4>{framework.nombre}</h4>
+        <p>{framework.descripcion}</p>
       </li>
     ));
 
   const renderTecnologias = () =>
-    renderListSection("Tecnologías", data.technologies, (tecnologia) => (
-      <li key={tecnologia.id} className="list-group-item my-1">
-        <h4>{tecnologia.name}</h4>
-        <p>{tecnologia.description}</p>
+    renderListSection("Tecnologías", data.tecnologias, (tecnologia) => (
+      <li key={tecnologia.id} className="list-group-item my-2">
+        <h4>{tecnologia.nombre}</h4>
+        <p>{tecnologia.descripcion}</p>
       </li>
     ));
 
   return (
-    <TransitionGroup>
-      <CSSTransition timeout={500} classNames="fade">
-        <>
-          <div className="row justify-content-between">
-            {renderExperiencias()}
-            {renderVoluntariados()}
-          </div>
-          <div className="row justify-content-between">
-            {renderEstudios()}
-            {renderIdiomas()}
-          </div>
-          <div className="row justify-content-between">
-            {renderLenguajes()}
-            {renderFrameworks()}
-            {renderTecnologias()}
-          </div>
-          <div className="row justify-content-between">
-            {renderAptitudes()}
-            {renderDetallesAdicionales()}
-          </div>
-        </>
-      </CSSTransition>
-    </TransitionGroup>
+    <div className="container-fluid">
+      <TransitionGroup>
+        <CSSTransition timeout={500} classNames="fade">
+          <>
+            <div className="row justify-content-center">
+              {renderExperiencias()}
+              {renderVoluntariados()}
+            </div>
+            <div className="row justify-content-center">
+              {renderEstudios()}
+              {renderIdiomas()}
+            </div>
+            <div className="row justify-content-center">
+              {renderLenguajes()}
+              {renderFrameworks()}
+              {renderTecnologias()}
+            </div>
+            <div className="row justify-content-center">
+              {renderAptitudes()}
+              {renderDetallesAdicionales()}
+            </div>
+          </>
+        </CSSTransition>
+      </TransitionGroup>
+    </div>
   );
 };
 

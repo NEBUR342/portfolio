@@ -8,31 +8,31 @@
   "redes": [
     {
       "id": 1,
-      "name": "Linkedin",
+      "nombre": "Linkedin",
       "url": "https://www.linkedin.com/in/ralvarezfernandez/",
       "simbolo":"https://cdn-icons-png.freepik.com/256/3536/3536505.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     },
     {
       "id": 2,
-      "name": "Instagram",
+      "nombre": "Instagram",
       "url": "https://www.instagram.com/nebur342/",
       "simbolo":"https://cdn-icons-png.freepik.com/256/2111/2111463.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     },
     {
       "id": 3,
-      "name": "tiktok",
+      "nombre": "tiktok",
       "url": "https://www.tiktok.com/@ruben_alvarez_fernandez",
       "simbolo":"https://cdn-icons-png.freepik.com/256/3938/3938055.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     },
     {
       "id": 4,
-      "name": "facebook",
+      "nombre": "facebook",
       "url": "https://www.facebook.com/profile.php?id=100017108250547&locale=es_ES",
       "simbolo":"https://cdn-icons-png.freepik.com/256/13051/13051733.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     },
     {
       "id": 5,
-      "name": "twitter",
+      "nombre": "twitter",
       "url": "https://twitter.com/NEBUR342",
       "simbolo":"https://cdn-icons-png.freepik.com/256/3256/3256013.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     }
@@ -40,41 +40,41 @@
   "aptitudes": [
     {
       "id": 1,
-      "name": "Capacidad de adaptación"
+      "nombre": "Capacidad de adaptación"
     },
     {
       "id": 2,
-      "name": "Resolución de problemas"
+      "nombre": "Resolución de problemas"
     },
     {
       "id": 3,
-      "name": "Habilidades comunicativas"
+      "nombre": "Habilidades comunicativas"
     },
     {
       "id": 4,
-      "name": "Habilidad multitarea"
+      "nombre": "Habilidad multitarea"
     },
     {
       "id": 5,
-      "name": "Pensamiento creativo"
+      "nombre": "Pensamiento creativo"
     }
   ],
   "detallesAdicionales": [
     {
       "id": 1,
-      "name": "Disponibilidad inmediata"
+      "nombre": "Disponibilidad inmediata"
     },
     {
       "id": 2,
-      "name": "Flexibilidad horaria"
+      "nombre": "Flexibilidad horaria"
     },
     {
       "id": 3,
-      "name": "Movilidad geográfica"
+      "nombre": "Movilidad geográfica"
     },
     {
       "id": 4,
-      "name": "Carnet de conducir"
+      "nombre": "Carnet de conducir"
     }
   ],
   "experiencias": [
@@ -155,100 +155,105 @@
       "nivel": "B1"
     }
   ],
-  "languages": [
+  "lenguajes": [
     {
       "id": 1,
-      "name": "CSS",
-      "description": "CSS, o Cascading Style Sheets, es el lenguaje que se utiliza para diseñar y dar formato a las páginas web. Con CSS, puedes controlar el diseño, el posicionamiento y el estilo de elementos HTML, permitiendo crear sitios web visualmente atractivos."
+      "nombre": "HTML",
+      "descripcion": "HTML, abreviatura de HyperText Markup Language, es el estándar para crear páginas web. Es un lenguaje de marcado que define la estructura y el contenido de una página, como texto, imágenes y otros elementos multimedia."
     },
     {
       "id": 2,
-      "name": "HTML",
-      "description": "HTML, abreviatura de HyperText Markup Language, es el estándar para crear páginas web. Es un lenguaje de marcado que define la estructura y el contenido de una página, como texto, imágenes y otros elementos multimedia."
+      "nombre": "CSS",
+      "descripcion": "CSS, o Cascading Style Sheets, es el lenguaje que se utiliza para diseñar y dar formato a las páginas web. Con CSS, puedes controlar el diseño, el posicionamiento y el estilo de elementos HTML, permitiendo crear sitios web visualmente atractivos."
     },
     {
       "id": 3,
-      "name": "Java",
-      "description": "Java es un lenguaje de programación multiplataforma y orientado a objetos utilizado para desarrollar aplicaciones empresariales, aplicaciones de escritorio y aplicaciones móviles. Es conocido por su robustez y portabilidad."
+      "nombre": "JavaScript",
+      "descripcion": "JavaScript es un lenguaje de scripting ampliamente utilizado en el desarrollo web para agregar interactividad y dinamismo a las páginas. Se ejecuta en el navegador y es esencial para crear aplicaciones web modernas."
     },
     {
       "id": 4,
-      "name": "JavaScript",
-      "description": "JavaScript es un lenguaje de scripting ampliamente utilizado en el desarrollo web para agregar interactividad y dinamismo a las páginas. Se ejecuta en el navegador y es esencial para crear aplicaciones web modernas."
+      "nombre": "PHP",
+      "descripcion": "PHP es un lenguaje de programación de código abierto diseñado para el desarrollo web del lado del servidor. Es ampliamente utilizado para crear sitios web dinámicos y aplicaciones web interactivas."
     },
     {
       "id": 5,
-      "name": "MySQL",
-      "description": "MySQL es un sistema de gestión de bases de datos relacionales de código abierto. Se utiliza para almacenar y gestionar datos en aplicaciones web y empresariales. MySQL es conocido por su confiabilidad y facilidad de uso."
+      "nombre": "MySQL",
+      "descripcion": "MySQL es un sistema de gestión de bases de datos relacionales de código abierto. Se utiliza para almacenar y gestionar datos en aplicaciones web y empresariales. MySQL es conocido por su confiabilidad y facilidad de uso."
     },
     {
       "id": 6,
-      "name": "PHP",
-      "description": "PHP es un lenguaje de programación de código abierto diseñado para el desarrollo web del lado del servidor. Es ampliamente utilizado para crear sitios web dinámicos y aplicaciones web interactivas."
+      "nombre": "Java",
+      "descripcion": "Java es un lenguaje de programación multiplataforma y orientado a objetos utilizado para desarrollar aplicaciones empresariales, aplicaciones de escritorio y aplicaciones móviles. Es conocido por su robustez y portabilidad."
     }
   ],
   "frameworks": [
     {
       "id": 1,
-      "name": "Bootstrap",
-      "description": "Bootstrap es un framework de frontend que facilita la creación de sitios web responsivos y móviles. Proporciona una serie de componentes predefinidos como botones, formularios y menús, lo que agiliza el proceso de desarrollo."
+      "nombre": "Laravel",
+      "descripcion": "Laravel es un framework de PHP para desarrollo de backend. Ofrece una estructura organizada y herramientas poderosas para simplificar el desarrollo de aplicaciones web escalables y mantenibles."
     },
     {
       "id": 2,
-      "name": "Laravel",
-      "description": "Laravel es un framework de PHP para desarrollo de backend. Ofrece una estructura organizada y herramientas poderosas para simplificar el desarrollo de aplicaciones web escalables y mantenibles."
+      "nombre": "Vue.js",
+      "descripcion": "Vue.js es un framework de JavaScript para la creación de interfaces de usuario y aplicaciones web. Se caracteriza por su facilidad de uso y su flexibilidad, permitiendo a los desarrolladores agregar interactividad a sus proyectos de forma sencilla."
     },
     {
       "id": 3,
-      "name": "React",
-      "description": "React es una biblioteca de JavaScript para la construcción de interfaces de usuario interactivas. Permite a los desarrolladores crear componentes reutilizables y facilita el desarrollo de aplicaciones web de una sola página."
+      "nombre": "React",
+      "descripcion": "React es una biblioteca de JavaScript para la construcción de interfaces de usuario interactivas. Permite a los desarrolladores crear componentes reutilizables y facilita el desarrollo de aplicaciones web de una sola página."
     },
     {
       "id": 4,
-      "name": "Tailwind CSS",
-      "description": "Tailwind CSS es un framework de diseño que permite a los desarrolladores aplicar estilos a través de clases predefinidas. A diferencia de otros frameworks, Tailwind fomenta la creación de diseños personalizados y flexibles."
+      "nombre": "Mui",
+      "descripcion": "MUI es un framework de React que proporciona componentes de interfaz de usuario siguiendo el diseño de Material Design, ideal para crear aplicaciones web modernas y consistentes."
     },
     {
       "id": 5,
-      "name": "Vue.js",
-      "description": "Vue.js es un framework de JavaScript para la creación de interfaces de usuario y aplicaciones web. Se caracteriza por su facilidad de uso y su flexibilidad, permitiendo a los desarrolladores agregar interactividad a sus proyectos de forma sencilla."
-    }
-  ],
-  "technologies": [
-    {
-      "id": 1,
-      "name": "AWS",
-      "description": "AWS, o Amazon Web Services, es una plataforma de servicios en la nube que ofrece una amplia gama de soluciones, incluyendo almacenamiento, bases de datos, computación y más. Es utilizada por empresas para escalar sus operaciones en la nube."
-    },
-    {
-      "id": 2,
-      "name": "Datatables",
-      "description": "Datatables es una biblioteca de JavaScript que permite crear tablas interactivas en sitios web. Proporciona características avanzadas como búsqueda, ordenación y paginación para mejorar la experiencia del usuario."
-    },
-    {
-      "id": 3,
-      "name": "Docker",
-      "description": "Docker es una plataforma de virtualización basada en contenedores. Permite a los desarrolladores empaquetar aplicaciones y sus dependencias en contenedores ligeros y portátiles, facilitando el despliegue y la colaboración."
-    },
-    {
-      "id": 4,
-      "name": "Git",
-      "description": "Git es un sistema de control de versiones distribuido. Se utiliza para gestionar el código fuente de proyectos de software, permitiendo la colaboración entre desarrolladores y la creación de diferentes ramas para el desarrollo."
-    },
-    {
-      "id": 5,
-      "name": "GitHub",
-      "description": "GitHub es una plataforma de alojamiento para proyectos de Git. Ofrece herramientas de colaboración, como repositorios, control de versiones y flujos de trabajo, para ayudar a los desarrolladores a trabajar juntos en proyectos de software."
+      "nombre": "Bootstrap",
+      "descripcion": "Bootstrap es un framework de frontend que facilita la creación de sitios web responsivos y móviles. Proporciona una serie de componentes predefinidos como botones, formularios y menús, lo que agiliza el proceso de desarrollo."
     },
     {
       "id": 6,
-      "name": "GitLab",
-      "description": "GitLab es una plataforma de DevOps que combina el control de versiones con herramientas para la integración continua, la entrega continua y la gestión de proyectos. Facilita el ciclo completo de desarrollo y despliegue de software."
+      "nombre": "Tailwind CSS",
+      "descripcion": "Tailwind CSS es un framework de diseño que permite a los desarrolladores aplicar estilos a través de clases predefinidas. A diferencia de otros frameworks, Tailwind fomenta la creación de diseños personalizados y flexibles."
+    }
+  ],
+  "tecnologias": [
+    {
+      "id": 1,
+      "nombre": "Git",
+      "descripcion": "Git es un sistema de control de versiones distribuido. Se utiliza para gestionar el código fuente de proyectos de software, permitiendo la colaboración entre desarrolladores y la creación de diferentes ramas para el desarrollo."
+    },
+    {
+      "id": 2,
+      "nombre": "GitHub",
+      "descripcion": "GitHub es una plataforma de alojamiento para proyectos de Git. Ofrece herramientas de colaboración, como repositorios, control de versiones y flujos de trabajo, para ayudar a los desarrolladores a trabajar juntos en proyectos de software."
+    },
+    {
+      "id": 3,
+      "nombre": "GitLab",
+      "descripcion": "GitLab es una plataforma de DevOps que combina el control de versiones con herramientas para la integración continua, la entrega continua y la gestión de proyectos. Facilita el ciclo completo de desarrollo y despliegue de software."
+    },
+    {
+      "id": 4,
+      "nombre": "AWS",
+      "descripcion": "AWS, o Amazon Web Services, es una plataforma de servicios en la nube que ofrece una amplia gama de soluciones, incluyendo almacenamiento, bases de datos, computación y más. Es utilizada por empresas para escalar sus operaciones en la nube."
+    },
+    {
+      "id": 5,
+      "nombre": "Docker",
+      "descripcion": "Docker es una plataforma de virtualización basada en contenedores. Permite a los desarrolladores empaquetar aplicaciones y sus dependencias en contenedores ligeros y portátiles, facilitando el despliegue y la colaboración."
+    },
+    {
+      "id": 6,
+      "nombre": "XAMPP",
+      "descripcion": "XAMPP es un entorno de desarrollo local que incluye Apache, MySQL, PHP y Perl. Se utiliza para crear entornos de desarrollo local para pruebas y desarrollo de aplicaciones web antes de implementarlas en producción."
     },
     {
       "id": 7,
-      "name": "XAMPP",
-      "description": "XAMPP es un entorno de desarrollo local que incluye Apache, MySQL, PHP y Perl. Se utiliza para crear entornos de desarrollo local para pruebas y desarrollo de aplicaciones web antes de implementarlas en producción."
+      "nombre": "Datatables",
+      "descripcion": "Datatables es una biblioteca de JavaScript que permite crear tablas interactivas en sitios web. Proporciona características avanzadas como búsqueda, ordenación y paginación para mejorar la experiencia del usuario."
     }
   ]
 }
