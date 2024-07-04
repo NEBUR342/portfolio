@@ -136,7 +136,7 @@ const About = () => {
   const renderLenguajes = () =>
     renderListSection("Lenguajes", data.lenguajes, "bloque3", (lenguaje) => (
       <li key={lenguaje.id} className="list-group-item my-2">
-        <h4>{lenguaje.nombre}</h4>
+        <a href={lenguaje.url} target="_blank" rel="noopener noreferrer">{lenguaje.nombre}</a>
         <p>{lenguaje.descripcion}</p>
       </li>
     ));
@@ -144,7 +144,7 @@ const About = () => {
   const renderFrameworks = () =>
     renderListSection("Frameworks", data.frameworks, "bloque3", (framework) => (
       <li key={framework.id} className="list-group-item my-2">
-        <h4>{framework.nombre}</h4>
+        <a href={framework.url} target="_blank" rel="noopener noreferrer">{framework.nombre}</a>
         <p>{framework.descripcion}</p>
       </li>
     ));
@@ -156,7 +156,7 @@ const About = () => {
       "bloque3",
       (tecnologia) => (
         <li key={tecnologia.id} className="list-group-item my-2">
-          <h4>{tecnologia.nombre}</h4>
+          <a href={tecnologia.url} target="_blank" rel="noopener noreferrer">{tecnologia.nombre}</a>
           <p>{tecnologia.descripcion}</p>
         </li>
       )
