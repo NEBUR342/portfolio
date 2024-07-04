@@ -17,7 +17,7 @@ const Home = () => {
               <h3>{jsonData.profesion}</h3>
               <p className="lead">{jsonData.descripcionPersonal}</p>
             </Col>
-            <Col md={6}>
+            <Col md={6} className="mb-4">
               <img
                 src={imagen}
                 alt="Foto perfil"
