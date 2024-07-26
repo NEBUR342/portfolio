@@ -112,6 +112,10 @@ main a {
   padding-right: 5px;
 }
 
-main a:hover{
+main a:hover {
   background-color: #a0a0a0;
+}
+
+.fondogradiente {
+  background-image: linear-gradient(black, grey);
 }

@@ -38,7 +38,7 @@ const Header = () => (
 );
 
 const Main = () => (
-  <main className="container-fluid main-content bg-secondary py-1 flex-grow-1">
+  <main className="container-fluid main-content fondogradiente py-1 flex-grow-1">
     <Routes>
       <Route path="/portfolio" element={<Home />} />
       <Route path="/portfolio/contact" element={<Contact />} />
