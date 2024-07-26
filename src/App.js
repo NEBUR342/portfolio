@@ -28,8 +28,8 @@ const Header = () => (
           </h2>
         </div>
         <div className="col d-flex justify-content-end">
-          <Link to="/portfolio/contact" className="mx-1">
-            <button className="btn btn-info">Contact</button>
+          <Link to="/portfolio/contact" className="mx-1" aria-label="Contact">
+            <button className="btn btn-info">Contacto</button>
           </Link>
         </div>
       </div>
