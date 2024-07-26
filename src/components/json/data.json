@@ -236,43 +236,55 @@
       "id": 1,
       "nombre": "Git",
       "descripcion": "Git es un sistema de control de versiones distribuido. Se utiliza para gestionar el código fuente de proyectos de software, permitiendo la colaboración entre desarrolladores y la creación de diferentes ramas para el desarrollo.",
-      "url":"https://git-scm.com"
+      "url": "https://git-scm.com"
     },
     {
       "id": 2,
       "nombre": "GitHub",
       "descripcion": "GitHub es una plataforma de alojamiento para proyectos de Git. Ofrece herramientas de colaboración, como repositorios, control de versiones y flujos de trabajo, para ayudar a los desarrolladores a trabajar juntos en proyectos de software.",
-      "url":"https://github.com"
+      "url": "https://github.com"
     },
     {
       "id": 3,
       "nombre": "GitLab",
       "descripcion": "GitLab es una plataforma de DevOps que combina el control de versiones con herramientas para la integración continua, la entrega continua y la gestión de proyectos. Facilita el ciclo completo de desarrollo y despliegue de software.",
-      "url":"https://about.gitlab.com"
+      "url": "https://about.gitlab.com"
     },
     {
       "id": 4,
       "nombre": "AWS",
       "descripcion": "AWS, o Amazon Web Services, es una plataforma de servicios en la nube que ofrece una amplia gama de soluciones, incluyendo almacenamiento, bases de datos, computación y más. Es utilizada por empresas para escalar sus operaciones en la nube.",
-      "url":"https://aws.amazon.com/es/free/?trk=2d5aad89-991b-4184-98b5-1f562e3102c8&sc_channel=ps&ef_id=CjwKCAjwkJm0BhBxEiwAwT1AXKtIxSwt597mn7lO1rit7jnFlsA3NyIMUYL1AFVtJJW4X5W6wGLkExoCO18QAvD_BwE:G:s&s_kwcid=AL!4422!3!674133464794!e!!g!!aws!15250970096!135343037928&gclid=CjwKCAjwkJm0BhBxEiwAwT1AXKtIxSwt597mn7lO1rit7jnFlsA3NyIMUYL1AFVtJJW4X5W6wGLkExoCO18QAvD_BwE&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all"
+      "url": "https://aws.amazon.com/es/free"
     },
     {
       "id": 5,
       "nombre": "Docker",
       "descripcion": "Docker es una plataforma de virtualización basada en contenedores. Permite a los desarrolladores empaquetar aplicaciones y sus dependencias en contenedores ligeros y portátiles, facilitando el despliegue y la colaboración.",
-      "url":"https://www.docker.com"
+      "url": "https://www.docker.com"
     },
     {
       "id": 6,
       "nombre": "XAMPP",
       "descripcion": "XAMPP es un entorno de desarrollo local que incluye Apache, MySQL, PHP y Perl. Se utiliza para crear entornos de desarrollo local para pruebas y desarrollo de aplicaciones web antes de implementarlas en producción.",
-      "url":"https://www.apachefriends.org/es/index.html"
+      "url": "https://www.apachefriends.org/es/index.html"
     },
     {
       "id": 7,
       "nombre": "Datatables",
       "descripcion": "Datatables es una biblioteca de JavaScript que permite crear tablas interactivas en sitios web. Proporciona características avanzadas como búsqueda, ordenación y paginación para mejorar la experiencia del usuario.",
-      "url":"https://datatables.net"
+      "url": "https://datatables.net"
+    },
+    {
+      "id": 8,
+      "nombre": "WordPress",
+      "descripcion": "WordPress es un sistema de gestión de contenidos (CMS) de código abierto que permite crear y gestionar sitios web de forma sencilla. Es altamente personalizable con temas y plugins.",
+      "url": "https://wordpress.org"
+    },
+    {
+      "id": 9,
+      "nombre": "Elementor",
+      "descripcion": "Elementor es un constructor de páginas para WordPress que permite a los usuarios crear sitios web con un diseño personalizado mediante un editor visual de arrastrar y soltar.",
+      "url": "https://elementor.com"
     }
   ]
 }
