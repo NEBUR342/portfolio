@@ -93,7 +93,7 @@
       "nombrePuesto": "Desarrollador web",
       "lugar": "Almería",
       "fechaInicio": "03/06/2024",
-      "fechaFin": "05/08/2023",
+      "fechaFin": "05/08/2024",
       "descripcion": "Actualmente colaborando en el desarrollo de En Memoria, plataforma online  diseñada para publicación y consulta de esquelas. Ademas de diferentes servicios  para facilitar la comunicación entre familiares y allegados."
     }
   ],
@@ -120,11 +120,11 @@
   "estudios": [
     {
       "id": 1,
-      "nombreCurso": "Técnico superior en desarrollo de aplicaciones web (DAW)",
-      "centro": "IES Al-Andalus",
-      "lugar": "Almería",
-      "fechaInicio": "Septiembre de 2020",
-      "fechaFin": "Diciembre 2023"
+      "nombreCurso": "ESO",
+      "centro": "IES Carlos III",
+      "lugar": "Aguadulce - Almería",
+      "fechaInicio": "Septiembre de 2014",
+      "fechaFin": "Junio de 2018"
     },
     {
       "id": 2,
@@ -136,11 +136,19 @@
     },
     {
       "id": 3,
-      "nombreCurso": "ESO",
-      "centro": "IES Carlos III",
-      "lugar": "Aguadulce - Almería",
-      "fechaInicio": "Septiembre de 2014",
-      "fechaFin": "Junio de 2018"
+      "nombreCurso": "Técnico superior en desarrollo de aplicaciones web (DAW)",
+      "centro": "IES Al-Andalus",
+      "lugar": "Almería",
+      "fechaInicio": "Septiembre de 2020",
+      "fechaFin": "Diciembre 2023"
+    },
+    {
+      "id": 4,
+      "nombreCurso": "Python & Deep Learning",
+      "centro": "InfoThot",
+      "lugar": "Telemático",
+      "fechaInicio": "Julio de 2024",
+      "fechaFin": "Realizándose"
     }
   ],
   "idiomas": [

@@ -66,7 +66,7 @@ const About = () => {
           </h5>
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
-            {experiencia.lugar}
+            {" "+experiencia.lugar}
           </p>
           <p>
             {experiencia.fechaInicio} - {experiencia.fechaFin}
@@ -79,7 +79,7 @@ const About = () => {
   const renderVoluntariados = () =>
     renderListSection(
       "Voluntariados",
-      data.voluntariados,
+      [...data.voluntariados].reverse(),
       "bloque1",
       (voluntariado) => (
         <li key={voluntariado.id} className="list-group-item my-2">
@@ -93,7 +93,7 @@ const About = () => {
           </h5>
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
-            {voluntariado.lugar}
+            {" "+voluntariado.lugar}
           </p>
           <p>
             {voluntariado.fechaInicio} - {voluntariado.fechaFin}
@@ -104,7 +104,7 @@ const About = () => {
     );
 
   const renderEstudios = () =>
-    renderListSection("Estudios", data.estudios, "bloque2", (estudio) => (
+    renderListSection("Estudios", [...data.estudios].reverse(), "bloque2", (estudio) => (
       <li key={estudio.id} className="list-group-item my-2">
         <h4>
           <FontAwesomeIcon icon={faBuilding} className="me-2" />
@@ -116,7 +116,7 @@ const About = () => {
         </h5>
         <p>
           <FontAwesomeIcon icon={faMapMarkerAlt} classame="me-2" />
-          {estudio.lugar}
+          {" "+estudio.lugar}
         </p>
         <p>
           {estudio.fechaInicio} - {estudio.fechaFin}
