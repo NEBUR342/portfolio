@@ -80,21 +80,21 @@
   "experiencias": [
     {
       "id": 1,
-      "nombreEmpresa": "EnMemoria",
-      "nombrePuesto": "Desarrollador web",
-      "lugar": "Almería",
-      "fechaInicio": "03/06/2024",
-      "fechaFin": "05/08/2023",
-      "descripcion": "Actualmente colaborando en el desarrollo de En Memoria, plataforma online  diseñada para publicación y consulta de esquelas. Ademas de diferentes servicios  para facilitar la comunicación entre familiares y allegados."
-    },
-    {
-      "id": 2,
       "nombreEmpresa": "Globomatik",
       "nombrePuesto": "Desarrollador web",
       "lugar": "Almería",
       "fechaInicio": "19/09/2023",
       "fechaFin": "30/11/2023",
       "descripcion": "Prácticas realizadas por parte del Grado superior. En la empresa realizaba proyectos en la intranet como formularios para facturas y aprender una nueva tecnología, el uso de Datatable. Tecnologías usadas: Bootstrap, HTML, CSS, PHP, Laravel y Datatable"
+    },
+    {
+      "id": 2,
+      "nombreEmpresa": "EnMemoria",
+      "nombrePuesto": "Desarrollador web",
+      "lugar": "Almería",
+      "fechaInicio": "03/06/2024",
+      "fechaFin": "05/08/2023",
+      "descripcion": "Actualmente colaborando en el desarrollo de En Memoria, plataforma online  diseñada para publicación y consulta de esquelas. Ademas de diferentes servicios  para facilitar la comunicación entre familiares y allegados."
     }
   ],
   "voluntariados": [

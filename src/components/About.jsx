@@ -52,7 +52,7 @@ const About = () => {
   const renderExperiencias = () =>
     renderListSection(
       "Experiencias",
-      data.experiencias,
+      [...data.experiencias].reverse(),
       "bloque1",
       (experiencia) => (
         <li key={experiencia.id} className="list-group-item my-2">
