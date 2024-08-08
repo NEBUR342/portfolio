@@ -8,33 +8,33 @@
   "redes": [
     {
       "id": 1,
-      "nombre": "Linkedin",
+      "nombre": "LinkedIn",
       "url": "https://www.linkedin.com/in/ralvarezfernandez/",
-      "simbolo":"https://cdn-icons-png.freepik.com/256/3536/3536505.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
+      "simbolo": "https://cdn-icons-png.freepik.com/256/3536/3536505.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     },
     {
       "id": 2,
       "nombre": "Instagram",
       "url": "https://www.instagram.com/nebur342/",
-      "simbolo":"https://cdn-icons-png.freepik.com/256/2111/2111463.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
+      "simbolo": "https://cdn-icons-png.freepik.com/256/2111/2111463.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     },
     {
       "id": 3,
-      "nombre": "tiktok",
+      "nombre": "TikTok",
       "url": "https://www.tiktok.com/@ruben_alvarez_fernandez",
-      "simbolo":"https://cdn-icons-png.freepik.com/256/3938/3938055.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
+      "simbolo": "https://cdn-icons-png.freepik.com/256/3938/3938055.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     },
     {
       "id": 4,
-      "nombre": "facebook",
+      "nombre": "Facebook",
       "url": "https://www.facebook.com/profile.php?id=100017108250547&locale=es_ES",
-      "simbolo":"https://cdn-icons-png.freepik.com/256/13051/13051733.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
+      "simbolo": "https://cdn-icons-png.freepik.com/256/13051/13051733.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     },
     {
       "id": 5,
-      "nombre": "twitter",
+      "nombre": "Twitter",
       "url": "https://twitter.com/NEBUR342",
-      "simbolo":"https://cdn-icons-png.freepik.com/256/3256/3256013.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
+      "simbolo": "https://cdn-icons-png.freepik.com/256/3256/3256013.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     }
   ],
   "aptitudes": [
@@ -74,7 +74,7 @@
     },
     {
       "id": 4,
-      "nombre": "Carnet de conducir"
+      "nombre": "Carné de conducir"
     }
   ],
   "experiencias": [
@@ -85,7 +85,7 @@
       "lugar": "Almería",
       "fechaInicio": "19/09/2023",
       "fechaFin": "30/11/2023",
-      "descripcion": "Prácticas realizadas por parte del Grado superior. En la empresa realizaba proyectos en la intranet como formularios para facturas y aprender una nueva tecnología, el uso de Datatable. Tecnologías usadas: Bootstrap, HTML, CSS, PHP, Laravel y Datatable"
+      "descripcion": "Prácticas realizadas por parte del grado superior. En la empresa realizaba proyectos en la intranet como formularios para facturas y aprendí una nueva tecnología: el uso de Datatables. Tecnologías usadas: Bootstrap, HTML, CSS, PHP, Laravel y Datatables."
     },
     {
       "id": 2,
@@ -94,7 +94,7 @@
       "lugar": "Almería",
       "fechaInicio": "03/06/2024",
       "fechaFin": "05/08/2024",
-      "descripcion": "Realización de frontend en React com Mui y Tailwind. Posteriormente el desarrollo de la página usando las tecnologías de WordPress usando los plugins Elementor, Elementor Header & Footer Builder y WPvivid Backup Plugin."
+      "descripcion": "Realización de frontend en React con MUI y Tailwind. Posteriormente, desarrollé la página usando las tecnologías de WordPress con los plugins Elementor, Elementor Header & Footer Builder y WPvivid Backup Plugin."
     }
   ],
   "voluntariados": [
@@ -103,18 +103,18 @@
       "nombreEmpresa": "Asociación ANÍMATE",
       "nombrePuesto": "Limpieza de restos arqueológicos",
       "lugar": "Toledo",
-      "fechaInicio": "10/8/2021",
-      "fechaFin": "24/8/2021",
-      "descripcion": "Voluntariado en el que se realizó una labor de limpieza en una zona de restos arqueológicos junto a otros voluntarios, mejoró la capacidad para realizar trabajos en equipo."
+      "fechaInicio": "10/08/2021",
+      "fechaFin": "24/08/2021",
+      "descripcion": "Voluntariado en el que se realizó una labor de limpieza en una zona de restos arqueológicos junto a otros voluntarios. Mejoré la capacidad para realizar trabajos en equipo."
     },
     {
       "id": 2,
       "nombreEmpresa": "Asociación ANÍMATE",
-      "nombrePuesto": " Rutas culturales",
+      "nombrePuesto": "Rutas culturales",
       "lugar": "Toledo",
       "fechaInicio": "24/07/2022",
-      "fechaFin": " 07/08/2022",
-      "descripcion": "Dinamizar actos de cultura desarrollando escenarios y diálogos entre personajes y posteriormente interpretar la obra en las calles de Toledo con los otros voluntarios, aumentó la capacidad de comunicación."
+      "fechaFin": "07/08/2022",
+      "descripcion": "Dinamización de actos culturales, desarrollando escenarios y diálogos entre personajes y posteriormente interpretando la obra en las calles de Toledo con los otros voluntarios. Aumenté la capacidad de comunicación."
     }
   ],
   "estudios": [
@@ -140,7 +140,7 @@
       "centro": "IES Al-Andalus",
       "lugar": "Almería",
       "fechaInicio": "Septiembre de 2020",
-      "fechaFin": "Diciembre 2023"
+      "fechaFin": "Diciembre de 2023"
     },
     {
       "id": 4,
@@ -168,37 +168,37 @@
       "id": 1,
       "nombre": "HTML",
       "descripcion": "HTML, abreviatura de HyperText Markup Language, es el estándar para crear páginas web. Es un lenguaje de marcado que define la estructura y el contenido de una página, como texto, imágenes y otros elementos multimedia.",
-      "url":"https://developer.mozilla.org/es/docs/Web/HTML"
+      "url": "https://developer.mozilla.org/es/docs/Web/HTML"
     },
     {
       "id": 2,
       "nombre": "CSS",
       "descripcion": "CSS, o Cascading Style Sheets, es el lenguaje que se utiliza para diseñar y dar formato a las páginas web. Con CSS, puedes controlar el diseño, el posicionamiento y el estilo de elementos HTML, permitiendo crear sitios web visualmente atractivos.",
-      "url":"https://developer.mozilla.org/es/docs/Web/CSS"
+      "url": "https://developer.mozilla.org/es/docs/Web/CSS"
     },
     {
       "id": 3,
       "nombre": "JavaScript",
       "descripcion": "JavaScript es un lenguaje de scripting ampliamente utilizado en el desarrollo web para agregar interactividad y dinamismo a las páginas. Se ejecuta en el navegador y es esencial para crear aplicaciones web modernas.",
-      "url":"https://developer.mozilla.org/es/docs/Web/JavaScript"
+      "url": "https://developer.mozilla.org/es/docs/Web/JavaScript"
     },
     {
       "id": 4,
       "nombre": "PHP",
       "descripcion": "PHP es un lenguaje de programación de código abierto diseñado para el desarrollo web del lado del servidor. Es ampliamente utilizado para crear sitios web dinámicos y aplicaciones web interactivas.",
-      "url":"https://www.php.net"
+      "url": "https://www.php.net"
     },
     {
       "id": 5,
       "nombre": "MySQL",
       "descripcion": "MySQL es un sistema de gestión de bases de datos relacionales de código abierto. Se utiliza para almacenar y gestionar datos en aplicaciones web y empresariales. MySQL es conocido por su confiabilidad y facilidad de uso.",
-      "url":"https://www.mysql.com"
+      "url": "https://www.mysql.com"
     },
     {
       "id": 6,
       "nombre": "Java",
       "descripcion": "Java es un lenguaje de programación multiplataforma y orientado a objetos utilizado para desarrollar aplicaciones empresariales, aplicaciones de escritorio y aplicaciones móviles. Es conocido por su robustez y portabilidad.",
-      "url":"https://www.java.com"
+      "url": "https://www.java.com"
     }
   ],
   "frameworks": [
@@ -206,37 +206,37 @@
       "id": 1,
       "nombre": "Laravel",
       "descripcion": "Laravel es un framework de PHP para desarrollo de backend. Ofrece una estructura organizada y herramientas poderosas para simplificar el desarrollo de aplicaciones web escalables y mantenibles.",
-      "url":"https://laravel.com"
+      "url": "https://laravel.com"
     },
     {
       "id": 2,
       "nombre": "Vue.js",
       "descripcion": "Vue.js es un framework de JavaScript para la creación de interfaces de usuario y aplicaciones web. Se caracteriza por su facilidad de uso y su flexibilidad, permitiendo a los desarrolladores agregar interactividad a sus proyectos de forma sencilla.",
-      "url":"https://vuejs.org"
+      "url": "https://vuejs.org"
     },
     {
       "id": 3,
       "nombre": "React",
       "descripcion": "React es una biblioteca de JavaScript para la construcción de interfaces de usuario interactivas. Permite a los desarrolladores crear componentes reutilizables y facilita el desarrollo de aplicaciones web de una sola página.",
-      "url":"https://es.react.dev"
+      "url": "https://es.react.dev"
     },
     {
       "id": 4,
-      "nombre": "Mui",
+      "nombre": "MUI",
       "descripcion": "MUI es un framework de React que proporciona componentes de interfaz de usuario siguiendo el diseño de Material Design, ideal para crear aplicaciones web modernas y consistentes.",
-      "url":"https://mui.com"
+      "url": "https://mui.com"
     },
     {
       "id": 5,
       "nombre": "Bootstrap",
       "descripcion": "Bootstrap es un framework de frontend que facilita la creación de sitios web responsivos y móviles. Proporciona una serie de componentes predefinidos como botones, formularios y menús, lo que agiliza el proceso de desarrollo.",
-      "url":"https://getbootstrap.com"
+      "url": "https://getbootstrap.com"
     },
     {
       "id": 6,
       "nombre": "Tailwind CSS",
       "descripcion": "Tailwind CSS es un framework de diseño que permite a los desarrolladores aplicar estilos a través de clases predefinidas. A diferencia de otros frameworks, Tailwind fomenta la creación de diseños personalizados y flexibles.",
-      "url":"https://tailwindcss.com"
+      "url": "https://tailwindcss.com"
     }
   ],
   "tecnologias": [
