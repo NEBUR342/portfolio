@@ -20,6 +20,7 @@ const About = () => {
     tecnologias: [],
     aptitudes: [],
     detallesAdicionales: [],
+    certificados: [],
   });
 
   useEffect(() => {
@@ -66,7 +67,7 @@ const About = () => {
           </h5>
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
-            {" "+experiencia.lugar}
+            {" " + experiencia.lugar}
           </p>
           <p>
             {experiencia.fechaInicio} - {experiencia.fechaFin}
@@ -93,7 +94,7 @@ const About = () => {
           </h5>
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
-            {" "+voluntariado.lugar}
+            {" " + voluntariado.lugar}
           </p>
           <p>
             {voluntariado.fechaInicio} - {voluntariado.fechaFin}
@@ -104,25 +105,59 @@ const About = () => {
     );
 
   const renderEstudios = () =>
-    renderListSection("Estudios", [...data.estudios].reverse(), "bloque2", (estudio) => (
-      <li key={estudio.id} className="list-group-item my-2">
-        <h4>
-          <FontAwesomeIcon icon={faBuilding} className="me-2" />
-          {estudio.centro}
-        </h4>
-        <h5>
-          <FontAwesomeIcon icon={faBriefcase} className="me-2" />
-          {estudio.nombreCurso}
-        </h5>
-        <p>
-          <FontAwesomeIcon icon={faMapMarkerAlt} classame="me-2" />
-          {" "+estudio.lugar}
-        </p>
-        <p>
-          {estudio.fechaInicio} - {estudio.fechaFin}
-        </p>
-      </li>
-    ));
+    renderListSection(
+      "Estudios",
+      [...data.estudios].reverse(),
+      "bloque2",
+      (estudio) => (
+        <li key={estudio.id} className="list-group-item my-2">
+          <h4>
+            <FontAwesomeIcon icon={faBuilding} className="me-2" />
+            {estudio.centro}
+          </h4>
+          <h5>
+            <FontAwesomeIcon icon={faBriefcase} className="me-2" />
+            {estudio.nombreCurso}
+          </h5>
+          <p>
+            <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
+            {" " + estudio.lugar}
+          </p>
+          <p>
+            {estudio.fechaInicio} - {estudio.fechaFin}
+          </p>
+        </li>
+      )
+    );
+
+  const renderCertificados = () =>
+    renderListSection(
+      "Certificados",
+      [...data.certificados].reverse(),
+      "bloque2",
+      (certificado) => (
+        <li key={certificado.id} className="list-group-item my-2">
+          <h4>
+            <FontAwesomeIcon icon={faBuilding} className="me-2" />
+            {certificado.centro}
+          </h4>
+          <h5>
+            <FontAwesomeIcon icon={faBriefcase} className="me-2 b-5" />
+            {certificado.nombreCurso}
+          </h5>
+          <div class="d-flex flex-row-reverse">
+            <a
+              href={certificado.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-center"
+            >
+              Ver certificado
+            </a>
+          </div>
+        </li>
+      )
+    );
 
   const renderIdiomas = () =>
     renderListSection("Idiomas", data.idiomas, "bloque2", (idioma) => (
@@ -136,7 +171,9 @@ const About = () => {
   const renderLenguajes = () =>
     renderListSection("Lenguajes", data.lenguajes, "bloque3", (lenguaje) => (
       <li key={lenguaje.id} className="list-group-item my-2">
-        <a href={lenguaje.url} target="_blank" rel="noopener noreferrer">{lenguaje.nombre}</a>
+        <a href={lenguaje.url} target="_blank" rel="noopener noreferrer">
+          {lenguaje.nombre}
+        </a>
         <p>{lenguaje.descripcion}</p>
       </li>
     ));
@@ -144,7 +181,9 @@ const About = () => {
   const renderFrameworks = () =>
     renderListSection("Frameworks", data.frameworks, "bloque3", (framework) => (
       <li key={framework.id} className="list-group-item my-2">
-        <a href={framework.url} target="_blank" rel="noopener noreferrer">{framework.nombre}</a>
+        <a href={framework.url} target="_blank" rel="noopener noreferrer">
+          {framework.nombre}
+        </a>
         <p>{framework.descripcion}</p>
       </li>
     ));
@@ -156,7 +195,9 @@ const About = () => {
       "bloque3",
       (tecnologia) => (
         <li key={tecnologia.id} className="list-group-item my-2">
-          <a href={tecnologia.url} target="_blank" rel="noopener noreferrer">{tecnologia.nombre}</a>
+          <a href={tecnologia.url} target="_blank" rel="noopener noreferrer">
+            {tecnologia.nombre}
+          </a>
           <p>{tecnologia.descripcion}</p>
         </li>
       )
@@ -192,6 +233,7 @@ const About = () => {
             </div>
             <div className="row justify-content-center">
               {renderEstudios()}
+              {renderCertificados()}
               {renderIdiomas()}
             </div>
             <div className="row justify-content-center">

@@ -151,6 +151,36 @@
       "fechaFin": "Realizándose"
     }
   ],
+  "certificados": [
+    {
+      "id": 1,
+      "nombreCurso": "AWS Academy Graduate - AWS Academy Cloud Foundations",
+      "centro": "Amazon Web Services (AWS)",
+      "fecha": "11/30/2022",
+      "url": "https://www.credly.com/badges/eaf8667f-ee44-40fa-9b76-7664f0ed4530/linked_in_profile"
+    },
+    {
+      "id": 2,
+      "nombreCurso": "Curso de Onboarding Becas OpenWebinars",
+      "centro": "OpenWebinars",
+      "fecha": "21 Diciembre 2022",
+      "url": "https://openwebinars.net/cert/WYKeB"
+    },
+    {
+      "id": 3,
+      "nombreCurso": "Gestión de documentación técnica con GitHub y Markdown",
+      "centro": "OpenWebinars",
+      "fecha": "22 Diciembre 2022",
+      "url": "https://openwebinars.net/cert/b94wR"
+    },
+    {
+      "id": 4,
+      "nombreCurso": "Optimización Web en el Navegador",
+      "centro": "OpenWebinars",
+      "fecha": "28 Enero 2023",
+      "url": "https://openwebinars.net/cert/5cRE"
+    }
+  ],
   "idiomas": [
     {
       "id": 1,
