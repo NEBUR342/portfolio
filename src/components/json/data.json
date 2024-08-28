@@ -37,46 +37,6 @@
       "simbolo": "https://cdn-icons-png.freepik.com/256/3256/3256013.png?ga=GA1.1.935835266.1715188070&semt=ais_hybrid"
     }
   ],
-  "aptitudes": [
-    {
-      "id": 1,
-      "nombre": "Capacidad de adaptación"
-    },
-    {
-      "id": 2,
-      "nombre": "Resolución de problemas"
-    },
-    {
-      "id": 3,
-      "nombre": "Habilidades comunicativas"
-    },
-    {
-      "id": 4,
-      "nombre": "Habilidad multitarea"
-    },
-    {
-      "id": 5,
-      "nombre": "Pensamiento creativo"
-    }
-  ],
-  "detallesAdicionales": [
-    {
-      "id": 1,
-      "nombre": "Disponibilidad inmediata"
-    },
-    {
-      "id": 2,
-      "nombre": "Flexibilidad horaria"
-    },
-    {
-      "id": 3,
-      "nombre": "Movilidad geográfica"
-    },
-    {
-      "id": 4,
-      "nombre": "Carné de conducir"
-    }
-  ],
   "experiencias": [
     {
       "id": 1,
@@ -323,6 +283,46 @@
       "nombre": "Elementor",
       "descripcion": "Elementor es un constructor de páginas para WordPress que permite a los usuarios crear sitios web con un diseño personalizado mediante un editor visual de arrastrar y soltar.",
       "url": "https://elementor.com"
+    }
+  ],
+  "aptitudes": [
+    {
+      "id": 1,
+      "nombre": "Capacidad de adaptación"
+    },
+    {
+      "id": 2,
+      "nombre": "Resolución de problemas"
+    },
+    {
+      "id": 3,
+      "nombre": "Habilidades comunicativas"
+    },
+    {
+      "id": 4,
+      "nombre": "Habilidad multitarea"
+    },
+    {
+      "id": 5,
+      "nombre": "Pensamiento creativo"
+    }
+  ],
+  "detallesAdicionales": [
+    {
+      "id": 1,
+      "nombre": "Disponibilidad inmediata"
+    },
+    {
+      "id": 2,
+      "nombre": "Flexibilidad horaria"
+    },
+    {
+      "id": 3,
+      "nombre": "Movilidad geográfica"
+    },
+    {
+      "id": 4,
+      "nombre": "Carné de conducir"
     }
   ]
 }
