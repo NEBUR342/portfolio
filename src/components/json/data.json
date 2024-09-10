@@ -189,6 +189,12 @@
       "nombre": "Java",
       "descripcion": "Java es un lenguaje de programación multiplataforma y orientado a objetos utilizado para desarrollar aplicaciones empresariales, aplicaciones de escritorio y aplicaciones móviles. Es conocido por su robustez y portabilidad.",
       "url": "https://www.java.com"
+    },
+    {
+      "id": 7,
+      "nombre": "Python",
+      "descripcion": "Python es un lenguaje de programación de alto nivel y propósito general que se destaca por su sintaxis sencilla y legibilidad. Es ampliamente utilizado en diversas áreas como desarrollo web, automatización, ciencia de datos, inteligencia artificial y más.",
+      "url": "https://www.python.org"
     }
   ],
   "frameworks": [
@@ -283,6 +289,24 @@
       "nombre": "Elementor",
       "descripcion": "Elementor es un constructor de páginas para WordPress que permite a los usuarios crear sitios web con un diseño personalizado mediante un editor visual de arrastrar y soltar.",
       "url": "https://elementor.com"
+    },
+    {
+      "id": 10,
+      "nombre": "Anaconda",
+      "descripcion": "Anaconda es una distribución de Python y R que incluye una amplia gama de paquetes y herramientas para la ciencia de datos, la estadística y el análisis de datos. Simplifica la gestión de entornos y la instalación de dependencias para proyectos de análisis y aprendizaje automático.",
+      "url": "https://www.anaconda.com"
+    },
+    {
+      "id": 11,
+      "nombre": "Jupyter",
+      "descripcion": "Jupyter es un entorno interactivo para la creación y ejecución de notebooks que permiten escribir y ejecutar código en varios lenguajes de programación, como Python. Es ampliamente utilizado para la investigación, la educación y el análisis de datos.",
+      "url": "https://jupyter.org"
+    },
+    {
+      "id": 12,
+      "nombre": "Google Colab",
+      "descripcion": "Google Colab es una plataforma basada en la nube que permite escribir y ejecutar código Python en notebooks de Jupyter sin necesidad de configuración. Es popular entre los desarrolladores y científicos de datos por su facilidad de uso y acceso gratuito a GPU y TPU.",
+      "url": "https://colab.research.google.com"
     }
   ],
   "aptitudes": [
