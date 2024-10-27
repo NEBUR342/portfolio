@@ -109,6 +109,14 @@
       "lugar": "Telemático",
       "fechaInicio": "Julio de 2024",
       "fechaFin": "Septiembre de 2024"
+    },
+    {
+      "id": 5,
+      "nombreCurso": "Ciberseguridad",
+      "centro": "IES Aguadulce",
+      "lugar": "Aguadulce - Almería",
+      "fechaInicio": "Octubre 2024",
+      "fechaFin": "En proceso"
     }
   ],
   "certificados": [
