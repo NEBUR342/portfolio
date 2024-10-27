@@ -139,6 +139,13 @@
       "centro": "OpenWebinars",
       "fecha": "28 Enero 2023",
       "url": "https://openwebinars.net/cert/5cRE"
+    },
+    {
+      "id": 5,
+      "nombreCurso": "Python & Deep Learning",
+      "centro": "InfoThot",
+      "fecha": "Julio de 2024 - Septiembre de 2024",
+      "url": "https://drive.google.com/file/d/1OK3FKBSUJ3FZ84uQF7Ymabd8abn55tPh/view?usp=sharing"
     }
   ],
   "idiomas": [
