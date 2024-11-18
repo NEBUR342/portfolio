@@ -117,6 +117,14 @@
       "lugar": "Aguadulce - Almería",
       "fechaInicio": "Octubre 2024",
       "fechaFin": "En proceso"
+    },
+    {
+      "id": 6,
+      "nombreCurso": "Photoshop",
+      "centro": "Taller Municipal de fotografía",
+      "lugar": "Casa del Mar Avd Antonio Machado, 55",
+      "fechaInicio": "Octubre 2024",
+      "fechaFin": "En proceso"
     }
   ],
   "certificados": [
