@@ -58,12 +58,12 @@ const About = () => {
       (experiencia) => (
         <li key={experiencia.id} className="list-group-item my-2">
           <h4>
-            <FontAwesomeIcon icon={faBuilding} className="me-2" />
-            {experiencia.nombreEmpresa}
-          </h4>
-          <h5>
             <FontAwesomeIcon icon={faBriefcase} className="me-2" />
             {experiencia.nombrePuesto}
+          </h4>
+          <h5>
+            <FontAwesomeIcon icon={faBuilding} className="me-2" />
+            {experiencia.nombreEmpresa}
           </h5>
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
@@ -85,12 +85,12 @@ const About = () => {
       (voluntariado) => (
         <li key={voluntariado.id} className="list-group-item my-2">
           <h4>
-            <FontAwesomeIcon icon={faBuilding} className="me-2" />
-            {voluntariado.nombreEmpresa}
-          </h4>
-          <h5>
             <FontAwesomeIcon icon={faBriefcase} className="me-2" />
             {voluntariado.nombrePuesto}
+          </h4>
+          <h5>
+            <FontAwesomeIcon icon={faBuilding} className="me-2" />
+            {voluntariado.nombreEmpresa}
           </h5>
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
@@ -112,12 +112,12 @@ const About = () => {
       (estudio) => (
         <li key={estudio.id} className="list-group-item my-2">
           <h4>
-            <FontAwesomeIcon icon={faBuilding} className="me-2" />
-            {estudio.centro}
-          </h4>
-          <h5>
             <FontAwesomeIcon icon={faBriefcase} className="me-2" />
             {estudio.nombreCurso}
+          </h4>
+          <h5>
+            <FontAwesomeIcon icon={faBuilding} className="me-2" />
+            {estudio.centro}
           </h5>
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
@@ -138,12 +138,12 @@ const About = () => {
       (certificado) => (
         <li key={certificado.id} className="list-group-item my-2">
           <h4>
-            <FontAwesomeIcon icon={faBuilding} className="me-2" />
-            {certificado.centro}
-          </h4>
-          <h5>
             <FontAwesomeIcon icon={faBriefcase} className="me-2 b-5" />
             {certificado.nombreCurso}
+          </h4>
+          <h5>
+            <FontAwesomeIcon icon={faBuilding} className="me-2" />
+            {certificado.centro}
           </h5>
           <div class="d-flex flex-row-reverse">
             <a
