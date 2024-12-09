@@ -1,8 +1,11 @@
-# src/components/Contact.jsx
+<h1 align="center">src/components/Contact.jsx</h1>
+
 ```
 "https://portfolioraf.lovestoblog.com"
 ```
-# package.json
+
+<h1 align="center">package.json</h1>
+
 ```
 {
   "name": "portfolio",
@@ -52,7 +55,9 @@
   }
 }
 ```
-# src/App.js
+
+<h1 align="center">src/App.js</h1>
+
 ```
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
