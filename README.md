@@ -1,3 +1,11 @@
+
+**Resultado en Markdown:**  
+```javascript
+function holaMundo() {
+  console.log("Hola Mundo");
+}
+```
+
 # src/components/Contact.jsx
 
 ---
