@@ -1,10 +1,10 @@
-src/components/Contact.jsx
+#src/components/Contact.jsx
 
 ---
 "https://nebur342.github.io/portfolio/"
 
 ---
-package.json
+#package.json
 
 ---
 {
@@ -59,7 +59,7 @@ package.json
 }
 
 ---
-src/App.js
+#src/App.js
 
 ---
 import React, { useState, useEffect } from "react";
