@@ -190,3 +190,28 @@ const App = () => {
 
 export default App;
 ```
+
+<h1 align="center">public/index.html</h1>
+
+```
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="images/user.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#3498db" />
+    <meta
+      name="description"
+      content="Portfolio personal creado con React"
+    />
+    <link rel="apple-touch-icon" href="images/user.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <noscript>Debes habilitar JavaScript para usar esta app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+```
