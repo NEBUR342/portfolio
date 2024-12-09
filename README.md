@@ -3,7 +3,9 @@
 ```
 "https://nebur342.github.io/portfolio/"
 ```
-# package.json
+
+<h1 align="center">package.json</h1>
+
 ```
 {
   "name": "portfolio",
@@ -56,7 +58,8 @@
   }
 }
 ```
-# src/App.js
+<h1 align="center">src/App.js</h1>
+
 ```
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
