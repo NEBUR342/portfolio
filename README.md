@@ -1,12 +1,9 @@
 # src/components/Contact.jsx
-
----
+```
 "https://nebur342.github.io/portfolio/"
-
----
+```
 # package.json
-
----
+```
 {
   "name": "portfolio",
   "version": "0.1.0",
@@ -57,11 +54,9 @@
     ]
   }
 }
-
----
+```
 # src/App.js
-
----
+```
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -189,3 +184,4 @@ const App = () => {
 };
 
 export default App;
+```
