@@ -1,20 +1,13 @@
 
-**Resultado en Markdown:**  
-```javascript
-function holaMundo() {
-  console.log("Hola Mundo");
-}
-```
-
 # src/components/Contact.jsx
-
 ---
+```
 "https://portfolioraf.lovestoblog.com"
-
+```
 ---
 # package.json
-
 ---
+```
 {
   "name": "portfolio",
   "version": "0.1.0",
@@ -62,11 +55,11 @@ function holaMundo() {
     ]
   }
 }
-
+```
 ---
 # src/App.js
-
 ---
+```
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -193,3 +186,4 @@ const App = () => {
 };
 
 export default App;
+```
