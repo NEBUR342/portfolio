@@ -45,7 +45,8 @@
       "lugar": "Almería",
       "fechaInicio": "19/09/2023",
       "fechaFin": "30/11/2023",
-      "descripcion": "Prácticas realizadas por parte del grado superior. En la empresa realizaba proyectos en la intranet como formularios para facturas y aprendí una nueva tecnología: el uso de Datatables. Tecnologías usadas: Bootstrap, HTML, CSS, PHP, Laravel y Datatables."
+      "descripcion": "Prácticas realizadas por parte del grado superior. En la empresa realizaba proyectos en la intranet como formularios para facturas y aprendí una nueva tecnología: el uso de Datatables. Tecnologías usadas: Bootstrap, HTML, CSS, PHP, Laravel y Datatables.",
+      "url":"https://www.globomatik.com"
     },
     {
       "id": 2,
@@ -54,7 +55,8 @@
       "lugar": "Almería",
       "fechaInicio": "03/06/2024",
       "fechaFin": "05/08/2024",
-      "descripcion": "Realización de frontend en React con MUI y Tailwind. Posteriormente, desarrollé la página usando las tecnologías de WordPress con los plugins Elementor, Elementor Header & Footer Builder y WPvivid Backup Plugin."
+      "descripcion": "Realización de frontend en React con MUI y Tailwind. Posteriormente, desarrollé la página usando las tecnologías de WordPress con los plugins Elementor, Elementor Header & Footer Builder y WPvivid Backup Plugin.",
+      "url":"https://enhomenaje.es"
     }
   ],
   "voluntariados": [
@@ -65,7 +67,8 @@
       "lugar": "Toledo",
       "fechaInicio": "10/08/2021",
       "fechaFin": "24/08/2021",
-      "descripcion": "Voluntariado en el que se realizó una labor de limpieza en una zona de restos arqueológicos junto a otros voluntarios. Mejoré la capacidad para realizar trabajos en equipo."
+      "descripcion": "Voluntariado en el que se realizó una labor de limpieza en una zona de restos arqueológicos junto a otros voluntarios. Mejoré la capacidad para realizar trabajos en equipo.",
+      "url":"https://grupoanimate.com"
     },
     {
       "id": 2,
@@ -74,7 +77,8 @@
       "lugar": "Toledo",
       "fechaInicio": "24/07/2022",
       "fechaFin": "07/08/2022",
-      "descripcion": "Dinamización de actos culturales, desarrollando escenarios y diálogos entre personajes y posteriormente interpretando la obra en las calles de Toledo con los otros voluntarios. Aumenté la capacidad de comunicación."
+      "descripcion": "Dinamización de actos culturales, desarrollando escenarios y diálogos entre personajes y posteriormente interpretando la obra en las calles de Toledo con los otros voluntarios. Aumenté la capacidad de comunicación.",
+      "url":"https://grupoanimate.com"
     }
   ],
   "estudios": [

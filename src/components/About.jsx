@@ -56,14 +56,17 @@ const About = () => {
       [...data.experiencias].reverse(),
       "bloque1",
       (experiencia) => (
-        <li key={experiencia.id} className="list-group-item my-2">
+        <li key={experiencia.id} className="list-group-item my-2" id="experiencias">
           <h4>
             <FontAwesomeIcon icon={faBriefcase} className="me-2" />
             {experiencia.nombrePuesto}
           </h4>
+
           <h5>
             <FontAwesomeIcon icon={faBuilding} className="me-2" />
-            {experiencia.nombreEmpresa}
+            <a href={experiencia.url} target="_blank" rel="noopener noreferrer">
+              {experiencia.nombreEmpresa}
+            </a>
           </h5>
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
@@ -83,14 +86,16 @@ const About = () => {
       [...data.voluntariados].reverse(),
       "bloque1",
       (voluntariado) => (
-        <li key={voluntariado.id} className="list-group-item my-2">
+        <li key={voluntariado.id} className="list-group-item my-2" id="voluntariados">
           <h4>
             <FontAwesomeIcon icon={faBriefcase} className="me-2" />
             {voluntariado.nombrePuesto}
           </h4>
           <h5>
             <FontAwesomeIcon icon={faBuilding} className="me-2" />
-            {voluntariado.nombreEmpresa}
+            <a href={voluntariado.url} target="_blank" rel="noopener noreferrer">
+              {voluntariado.nombreEmpresa}
+            </a>
           </h5>
           <p>
             <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
@@ -136,7 +141,7 @@ const About = () => {
       [...data.certificados].reverse(),
       "bloque2",
       (certificado) => (
-        <li key={certificado.id} className="list-group-item my-2">
+        <li key={certificado.id} className="list-group-item my-2" id="certificados">
           <h4>
             <FontAwesomeIcon icon={faBriefcase} className="me-2 b-5" />
             {certificado.nombreCurso}
@@ -170,7 +175,7 @@ const About = () => {
 
   const renderLenguajes = () =>
     renderListSection("Lenguajes", data.lenguajes, "bloque3", (lenguaje) => (
-      <li key={lenguaje.id} className="list-group-item my-2">
+      <li key={lenguaje.id} className="list-group-item my-2" id="lenguajes">
         <a href={lenguaje.url} target="_blank" rel="noopener noreferrer">
           {lenguaje.nombre}
         </a>
@@ -180,7 +185,7 @@ const About = () => {
 
   const renderFrameworks = () =>
     renderListSection("Frameworks", data.frameworks, "bloque3", (framework) => (
-      <li key={framework.id} className="list-group-item my-2">
+      <li key={framework.id} className="list-group-item my-2" id="frameworks">
         <a href={framework.url} target="_blank" rel="noopener noreferrer">
           {framework.nombre}
         </a>
@@ -194,7 +199,7 @@ const About = () => {
       data.tecnologias,
       "bloque3",
       (tecnologia) => (
-        <li key={tecnologia.id} className="list-group-item my-2">
+        <li key={tecnologia.id} className="list-group-item my-2" id="tecnologias">
           <a href={tecnologia.url} target="_blank" rel="noopener noreferrer">
             {tecnologia.nombre}
           </a>
