@@ -57,6 +57,16 @@
       "fechaFin": "05/08/2024",
       "descripcion": "Realización de frontend en React con MUI y Tailwind. Posteriormente, desarrollé la página usando las tecnologías de WordPress con los plugins Elementor, Elementor Header & Footer Builder y WPvivid Backup Plugin.",
       "url":"https://enhomenaje.es"
+    },
+    {
+      "id": 3,
+      "nombreEmpresa": "Grupo vetsan, S.L.",
+      "nombrePuesto": "Recojedor de muestras de piscinas",
+      "lugar": "Aguadulce - Almería",
+      "fechaInicio": "16/05/2025",
+      "fechaFin": "Trabajando",
+      "descripcion": "Tomar las muestras de piscinas que la empresa me dice. Algo que me enseña este puesto es a organizar las rutas antes de hacerlas y a comunicarme con los responsables de las piscinas para informarme si puedo pasarme y que ellos sepan que voy.",
+      "url":"https://clinicaveterinariaaguadulce.com"
     }
   ],
   "voluntariados": [
@@ -136,36 +146,37 @@
       "id": 1,
       "nombreCurso": "AWS Academy Graduate - AWS Academy Cloud Foundations",
       "centro": "Amazon Web Services (AWS)",
-      "fecha": "11/30/2022",
-      "url": "https://www.credly.com/badges/eaf8667f-ee44-40fa-9b76-7664f0ed4530/linked_in_profile"
+      "url": "https://drive.google.com/file/d/1vHx-vhsBQDzwG9jmFt6kMdzCVR5cH95C/view?usp=sharing"
     },
     {
       "id": 2,
       "nombreCurso": "Curso de Onboarding Becas OpenWebinars",
       "centro": "OpenWebinars",
-      "fecha": "21 Diciembre 2022",
-      "url": "https://openwebinars.net/cert/WYKeB"
+      "url": "https://drive.google.com/file/d/1EQNNeVsTUi8Wd27GXN83ga2btObfjtVf/view?usp=sharing"
     },
     {
       "id": 3,
       "nombreCurso": "Gestión de documentación técnica con GitHub y Markdown",
       "centro": "OpenWebinars",
-      "fecha": "22 Diciembre 2022",
-      "url": "https://openwebinars.net/cert/b94wR"
+      "url": "https://drive.google.com/file/d/1YwjVsAbA8AyFD01uR7NVLP7ZW8VMEp86/view?usp=sharing"
     },
     {
       "id": 4,
       "nombreCurso": "Optimización Web en el Navegador",
       "centro": "OpenWebinars",
-      "fecha": "28 Enero 2023",
-      "url": "https://openwebinars.net/cert/5cRE"
+      "url": "https://drive.google.com/file/d/1PmfuIMqDuH-1JDnJXvf97amqUwmHZrOZ/view?usp=sharing"
     },
     {
       "id": 5,
       "nombreCurso": "Python & Deep Learning",
       "centro": "InfoThot",
-      "fecha": "Julio de 2024 - Septiembre de 2024",
       "url": "https://drive.google.com/file/d/1OK3FKBSUJ3FZ84uQF7Ymabd8abn55tPh/view?usp=sharing"
+    },
+    {
+      "id": 6,
+      "nombreCurso": "Google: Inteligencia Artificial y productividad",
+      "centro": "Google y Santander",
+      "url": "https://drive.google.com/file/d/13QAs43JyNefmILMvbejUDnrL0oHhKH5L/view?usp=sharing"
     }
   ],
   "idiomas": [
