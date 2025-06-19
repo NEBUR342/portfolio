@@ -129,16 +129,16 @@
       "nombreCurso": "Ciberseguridad",
       "centro": "IES Aguadulce",
       "lugar": "Aguadulce - Almería",
-      "fechaInicio": "Octubre 2024",
-      "fechaFin": "En proceso"
+      "fechaInicio": "Octubre de 2024",
+      "fechaFin": "Junio de 2025"
     },
     {
       "id": 6,
       "nombreCurso": "Photoshop",
       "centro": "Taller Municipal de fotografía",
       "lugar": "Casa del Mar Avd Antonio Machado, 55",
-      "fechaInicio": "Octubre 2024",
-      "fechaFin": "En proceso"
+      "fechaInicio": "Octubre de 2024",
+      "fechaFin": "Junio de 2025"
     }
   ],
   "certificados": [
