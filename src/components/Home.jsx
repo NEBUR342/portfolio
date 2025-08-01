@@ -13,8 +13,10 @@ const Home = () => {
         <CSSTransition timeout={500} classNames="fade">
           <Row className="full-height-container text-center text-white align-items-center justify-content-center">
             <Col>
-              <h1>{jsonData.nombre}</h1>
-              <h3>{jsonData.profesion}</h3>
+              <h1 className="mb-3">{jsonData.nombre}</h1>
+              {jsonData.profesiones.map((prof) => (
+                <h3 key={prof.id}>{prof.nombre}</h3>
+              ))}
               <p className="lead">{jsonData.descripcionPersonal}</p>
             </Col>
             <Col md={6} className="margen-bottom">

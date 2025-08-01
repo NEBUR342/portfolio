@@ -1,7 +1,16 @@
 {
   "nombre": "Rubén Álvarez Fernández",
   "descripcionPersonal": "Programador Full Stack y dentro de poco con ciberseguridad. Ahora me encuentro trabajando como rercojedor de muestras de piscinas pero estoy interesado en trabajar en lo que he estudiado.",
-  "profesion": "Técnico superior en desarrollo de aplicaciones web",
+  "profesiones": [
+    {
+      "id":1,
+      "nombre":"Especialista en ciberseguridad en entornos de las tecnologías de la información"
+    },
+    {
+      "id":2,
+      "nombre":"Técnico superior en desarrollo de aplicaciones web"
+    }
+  ],
   "telefono": "+34 688-930-901",
   "proyectos": "https://github.com/NEBUR342",
   "email": "ralvarezfernandez342@gmail.com",
@@ -110,11 +119,11 @@
     },
     {
       "id": 3,
-      "nombreCurso": "Técnico superior en desarrollo de aplicaciones web (DAW)",
-      "centro": "IES Al-Andalus",
-      "lugar": "Almería",
-      "fechaInicio": "Septiembre de 2020",
-      "fechaFin": "Diciembre de 2023"
+      "nombreCurso": "Photoshop",
+      "centro": "Taller Municipal de fotografía",
+      "lugar": "Casa del Mar Avd Antonio Machado, 55",
+      "fechaInicio": "Octubre de 2024",
+      "fechaFin": "Junio de 2025"
     },
     {
       "id": 4,
@@ -126,17 +135,17 @@
     },
     {
       "id": 5,
-      "nombreCurso": "Ciberseguridad",
-      "centro": "IES Aguadulce",
-      "lugar": "Aguadulce - Almería",
-      "fechaInicio": "Octubre de 2024",
-      "fechaFin": "Junio de 2025"
+      "nombreCurso": "Técnico superior en desarrollo de aplicaciones web (DAW)",
+      "centro": "IES Al-Andalus",
+      "lugar": "Almería",
+      "fechaInicio": "Septiembre de 2020",
+      "fechaFin": "Diciembre de 2023"
     },
     {
       "id": 6,
-      "nombreCurso": "Photoshop",
-      "centro": "Taller Municipal de fotografía",
-      "lugar": "Casa del Mar Avd Antonio Machado, 55",
+      "nombreCurso": "Curso de especialización en ciberseguridad en entornos de las tecnologías de la información",
+      "centro": "IES Aguadulce",
+      "lugar": "Aguadulce - Almería",
       "fechaInicio": "Octubre de 2024",
       "fechaFin": "Junio de 2025"
     }
