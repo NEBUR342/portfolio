@@ -135,6 +135,14 @@
     },
     {
       "id": 5,
+      "nombreCurso": "PowerBi",
+      "centro": "Cuberty",
+      "lugar": "Almería",
+      "fechaInicio": "Julio de 2025",
+      "fechaFin": "Septiembre de 2025"
+    },
+    {
+      "id": 6,
       "nombreCurso": "Técnico superior en desarrollo de aplicaciones web (DAW)",
       "centro": "IES Al-Andalus",
       "lugar": "Almería",
@@ -142,7 +150,7 @@
       "fechaFin": "Diciembre de 2023"
     },
     {
-      "id": 6,
+      "id": 7,
       "nombreCurso": "Curso de especialización en ciberseguridad en entornos de las tecnologías de la información",
       "centro": "IES Aguadulce",
       "lugar": "Aguadulce - Almería",
@@ -354,6 +362,18 @@
       "nombre": "Google Colab",
       "descripcion": "Google Colab es una plataforma basada en la nube que permite escribir y ejecutar código Python en notebooks de Jupyter sin necesidad de configuración. Es popular entre los desarrolladores y científicos de datos por su facilidad de uso y acceso gratuito a GPU y TPU.",
       "url": "https://colab.research.google.com"
+    },
+    {
+      "id": 13,
+      "nombre": "Power Bi Desktop",
+      "descripcion": "Una aplicación de escritorio para crear y publicar informes, conectando a datos, modelando y construyendo visualizaciones.",
+      "url": "https://www.microsoft.com/es-es/power-platform/products/power-bi/desktop"
+    },
+    {
+      "id": 14,
+      "nombre": "SQL Server Management Studio",
+      "descripcion": "Es un entorno integrado de Microsoft para acceder, configurar, administrar y desarrollar bases de datos SQL Server y servicios en la nube como Azure SQL Database.",
+      "url": "https://learn.microsoft.com/es-es/ssms/sql-server-management-studio-ssms"
     }
   ],
   "aptitudes": [
